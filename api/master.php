@@ -5,7 +5,7 @@ class Master {
      * Get All JSON Data
      */
     function get_all_data(){
-        $json = (array) json_decode(file_get_contents('data.json'));
+        $json = (array) json_decode(file_get_contents('/../src/data.json'));
         $data = [];
         foreach($json as $row){
             $data[$row->id] = $row;
@@ -60,7 +60,7 @@ $expiration_date = date("d/m/Y", $dates);
             "expiration_date" => $expiration_date
         ];
         $json = json_encode(array_values($data), JSON_PRETTY_PRINT);
-        $insert = file_put_contents('data.json', $json);
+        $insert = file_put_contents('/../src/data.json', $json);
         if($insert){
             $resp['status'] = 'success';
         }else{
@@ -99,7 +99,7 @@ $expiration_date = date("d/m/Y", $dates);
             "expiration_date" => $expiration_date
         ];
         $json = json_encode(array_values($data), JSON_PRETTY_PRINT);
-        $update = file_put_contents('data.json', $json);
+        $update = file_put_contents('/../src/data.json', $json);
         if($update){
             $resp['status'] = 'success';
         }else{
@@ -121,7 +121,7 @@ $expiration_date = date("d/m/Y", $dates);
             if(isset($data[$id])){
                 unset($data[$id]);
                 $json = json_encode(array_values($data), JSON_PRETTY_PRINT);
-                $update = file_put_contents('data.json', $json);
+                $update = file_put_contents('/../src/data.json', $json);
                 if($update){
                     $resp['status'] = 'success';
                 }else{
