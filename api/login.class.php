@@ -5,7 +5,7 @@ class LoginUser{
 	private $contact;
 	public $error;
 	public $success;
-	private $storage = "acc.json";
+	private $storage = "/../src/acc.json";
 	private $stored_users;
 
 	// class methods
