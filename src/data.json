@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Mohan",
+        "contact": "8096592423",
+        "address": "Visakhapatnam",
+        "device": "niaxu 25-9-2024 11:43:26",
+        "curdate": "20\/07\/2024",
+        "days": "30",
+        "expiration_date": "19\/08\/2024"
+    },
+    {
+        "id": 2,
+        "name": "Srikanth",
+        "contact": "7032065333",
+        "address": "HYD",
+        "device": "bdc289a2-3e0d-44d2-b34c-173a69736378",
+        "curdate": "03\/08\/2024",
+        "days": "90",
+        "expiration_date": "01\/11\/2024"
+    },
+    {
+        "id": 3,
+        "name": "Satish",
+        "contact": "9676872050",
+        "address": "Khamam",
+        "device": "08f6e1ae-023c-4c0a-ba03-d986e102ed49",
+        "curdate": "05\/08\/2024",
+        "days": "90",
+        "expiration_date": "03\/11\/2024"
+    },
+    {
+        "id": 4,
+        "name": "Pavani",
+        "contact": "9100826727",
+        "address": "Madhira",
+        "device": "08f6e1ae-023c-4c0a-ba03-d986e102ed49",
+        "curdate": "05\/08\/2024",
+        "days": "30",
+        "expiration_date": "04\/09\/2024"
+    },
+    {
+        "id": 5,
+        "name": "Spurini",
+        "contact": "7013380757",
+        "address": "Madhira",
+        "device": "08f6e1ae-023c-4c0a-ba03-d986e102ed49",
+        "curdate": "05\/08\/2024",
+        "days": "10",
+        "expiration_date": "15\/08\/2024"
+    },
+    {
+        "id": 6,
+        "name": "Devisrj",
+        "contact": "7815901428",
+        "address": "Hyd",
+        "device": "b3528861-b16b-4a7f-bf46-0d59855917d3",
+        "curdate": "05\/08\/2024",
+        "days": "30",
+        "expiration_date": "04\/09\/2024"
+    },
+    {
+        "id": 9,
+        "name": "Mstelecom",
+        "contact": "6896542168",
+        "address": "Mdr",
+        "device": "10264117-b482-4ebd-b72b-e215e5a1f907",
+        "curdate": "05\/08\/2024",
+        "days": "10",
+        "expiration_date": "15\/08\/2024"
+    },
+    {
+        "id": 10,
+        "name": "Byreddi",
+        "contact": "8008151515",
+        "address": "Haliya",
+        "device": "f203a44b-3e78-40f7-b57f-92519a106eca",
+        "curdate": "08\/08\/2024",
+        "days": "30",
+        "expiration_date": "07\/09\/2024"
+    },
+    {
+        "id": 11,
+        "name": "Byreddi",
+        "contact": "8008151515",
+        "address": "Haliya",
+        "device": "f203a44b-3e78-40f7-b57f-92519a106eca",
+        "curdate": "08\/08\/2024",
+        "days": "30",
+        "expiration_date": "07\/09\/2024"
+    },
+    {
+        "id": 12,
+        "name": "Muzahid",
+        "contact": "98665333346",
+        "address": "Nirmal",
+        "device": "e5c29a6e-b978-4b3d-bb38-206f5b589b6c",
+        "curdate": "08\/08\/2024",
+        "days": "20",
+        "expiration_date": "28\/08\/2024"
+    },
+    {
+        "id": 13,
+        "name": "Satish",
+        "contact": "9676872050",
+        "address": "Mdr",
+        "device": "5530daf5-ffa7-4c6f-b529-1b7b69355f15",
+        "curdate": "08\/08\/2024",
+        "days": "300",
+        "expiration_date": "04\/06\/2025"
+    },
+    {
+        "id": 14,
+        "name": "Madhav",
+        "contact": "8096592424",
+        "address": "Visakhapatnam",
+        "device": "niaxu 25-9-2024 11:43:27",
+        "curdate": "25\/09\/2024",
+        "days": "30",
+        "expiration_date": "25\/10\/2024"
+    },
+    {
+        "id": 15,
+        "name": "Abhinav",
+        "contact": "8096592423",
+        "address": "Visakhapatnam",
+        "device": "ertyuubkk",
+        "curdate": "02\/02\/2025",
+        "days": "30",
+        "expiration_date": "04\/03\/2025"
+    },
+    {
+        "id": 16,
+        "name": "Per",
+        "contact": "8996592425",
+        "address": "Viz",
+        "device": "Sdfgjkk",
+        "curdate": "03\/02\/2025",
+        "days": "60",
+        "expiration_date": "04\/04\/2025"
+    }
+]
