@@ -6,7 +6,15 @@
   },
   "routes": [
     
-    { "src": "/(.*)", "dest": "/api/$1" }
+    { "src": "/(.*)", "dest": "/api/index.php" },
+    { "src": "/(.*)", "dest": "/api/admin.php" },
+    { "src": "/(.*)", "dest": "/api/master.php" },
+    { "src": "/(.*)", "dest": "/api/logout.php" },
+    { "src": "/(.*)", "dest": "/api/login.class.php" },
+    { "src": "/(.*)", "dest": "/api/member_form.php" },
+    { "src": "/(.*)", "dest": "/api/delete_data.php" },
+    { "src": "/(.*)", "dest": "/api/acc.json" },
+   { "src": "/(.*)", "dest": "/api/data.json" }
   ],
   
 }
