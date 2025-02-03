@@ -1,20 +1,69 @@
 {
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-php@0.7.3"
-    }
-  },
-  "routes": [
-    
-    { "src": "/(.*)", "dest": "/api/index.php" },
-    { "src": "/(.*)", "dest": "/api/admin.php" },
-    { "src": "/(.*)", "dest": "/api/master.php" },
-    { "src": "/(.*)", "dest": "/api/logout.php" },
-    { "src": "/(.*)", "dest": "/api/login.class.php" },
-    { "src": "/(.*)", "dest": "/api/member_form.php" },
-    { "src": "/(.*)", "dest": "/api/delete_data.php" },
-    { "src": "/(.*)", "dest": "/api/acc.json" },
-   { "src": "/(.*)", "dest": "/api/data.json" }
-  ],
-  
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+        "api/admin.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/master.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/logout.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/login.class.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/member_form.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/delete.data.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/acc.json": {
+            "runtime": "vercel-php@0.7.1"
+        },
+      "api/data.json": {
+            "runtime": "vercel-php@0.7.1"
+        }
+    },
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/",
+            "dest": "/api/admin.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/master.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/logout.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/login.class.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/member_form.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/delete_data.php"
+        },
+      {
+            "src": "/",
+            "dest": "/api/acc.json"
+        },
+      {
+            "src": "/",
+            "dest": "/api/data json"
+        }
+    ]
 }
