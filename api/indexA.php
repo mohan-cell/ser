@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    $jsonFile = 'data.json';
+    $jsonFile = '/../src/data.json';
     $data = json_decode(file_get_contents($jsonFile), true);
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
