@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-    $jsonFile = '(__DIR__ . '/../src/data.json')';
-    $data = json_decode(file_get_contents($jsonFile), true);
+    
+    $data = json_decode(file_get_contents(__DIR__ . '/../src/data.json'), true);
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (isset($_POST['create'])) {
