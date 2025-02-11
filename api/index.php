@@ -18,8 +18,7 @@
             $data[] = array('name' => $name, 'email' => $email);
             $jsonData = json_encode($data);
             file_put_contents(__DIR__ . '/../src/data.json', $jsonData);
-            header('Location: ?');
-            exit;
+            
         } elseif (isset($_POST['update'])) {
             $id = $_POST['id'];
             $name = $_POST['name'];
